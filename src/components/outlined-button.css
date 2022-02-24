@@ -1,0 +1,16 @@
+.outlined-button {
+    color: var(--primary-color);
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    transition: 50ms ease-in-out;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.outlined-button:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
