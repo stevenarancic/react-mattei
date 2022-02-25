@@ -11,6 +11,7 @@ export default function SocialMediaBlock() {
                     icon={<Facebook />}
                     title="Facebook"
                     link="https://www.facebook.com/pages/Mattei-Materiais-El%C3%A9tricos/402893023398855"
+                    color="#1B74E4"
                 />
                 <div className="ms-3" />
                 <SocialMediaItem
@@ -19,7 +20,11 @@ export default function SocialMediaBlock() {
                     link="https://www.instagram.com/matteimateriaiseletricos/"
                 />
                 <div className="ms-3" />
-                <SocialMediaItem icon={<Whatsapp />} title="Whatsapp" />
+                <SocialMediaItem
+                    icon={<Whatsapp />}
+                    title="Whatsapp"
+                    color="#25C862"
+                />
             </div>
         </div>
     );

@@ -15,7 +15,7 @@ export default function ContactDropdown() {
     return (
         <div className="dropdown-block">
             <OutlinedButton
-                title="Contato"
+                title="+ Contato"
                 trailingIcon={<CaretDown />}
                 onClick={() => setIsClicked(!isClicked)}
             />
@@ -29,16 +29,16 @@ export default function ContactDropdown() {
                 }}
             >
                 <div className="d-flex flex-column">
-                    <div className="d-flex flex-row align-items-center">
+                    <div>
                         <Phone /> &nbsp; Telefones
                     </div>
-                    <div className="d-flex flex-row mt-2 align-items-center">
+                    <div className="mt-2">
                         <Envelope /> &nbsp; E-mails
                     </div>
-                    <div className="d-flex flex-row mt-2 align-items-center">
+                    <div className="mt-2">
                         <Facebook /> &nbsp; Facebook
                     </div>
-                    <div className="d-flex flex-row mt-2 align-items-center">
+                    <div className="mt-2">
                         <Instagram /> &nbsp; Instagram
                     </div>
                 </div>
