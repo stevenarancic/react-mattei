@@ -1,5 +1,11 @@
 import React, { useState } from "react";
-import { CaretDown } from "react-bootstrap-icons";
+import {
+    CaretDown,
+    Envelope,
+    Facebook,
+    Instagram,
+    Phone,
+} from "react-bootstrap-icons";
 import OutlinedButton from "./outlined-button";
 import "./contact-dropdown.css";
 
@@ -18,11 +24,24 @@ export default function ContactDropdown() {
                 style={{
                     opacity: isClicked ? 1 : 0,
                     transform: isClicked
-                        ? "translateY(0px)"
+                        ? "translateY(5px)"
                         : "translateY(-10px)",
                 }}
             >
-                content
+                <div className="d-flex flex-column">
+                    <div className="d-flex flex-row align-items-center">
+                        <Phone /> &nbsp; Telefones
+                    </div>
+                    <div className="d-flex flex-row mt-2 align-items-center">
+                        <Envelope /> &nbsp; E-mails
+                    </div>
+                    <div className="d-flex flex-row mt-2 align-items-center">
+                        <Facebook /> &nbsp; Facebook
+                    </div>
+                    <div className="d-flex flex-row mt-2 align-items-center">
+                        <Instagram /> &nbsp; Instagram
+                    </div>
+                </div>
             </div>
         </div>
     );
