@@ -8,9 +8,14 @@ import {
 } from "react-bootstrap-icons";
 import OutlinedButton from "./outlined-button";
 import "./contact-dropdown.css";
+import PhoneModal from "./dropdown-menu/phone-modal";
+import MailModal from "./dropdown-menu/mail-modal";
+import { Button } from "react-bootstrap";
 
 export default function ContactDropdown() {
     const [isClicked, setIsClicked] = useState(false);
+    const [phoneModalShow, setPhoneModalShow] = useState(false);
+    const [mailModalShow, setMailModalShow] = useState(false);
 
     return (
         <div className="dropdown-block">
@@ -30,10 +35,30 @@ export default function ContactDropdown() {
             >
                 <div className="d-flex flex-column">
                     <div>
-                        <Phone /> &nbsp; Telefones
+                        <Button
+                            style={{ color: "var(--primary-color)" }}
+                            variant=""
+                            onClick={() => setPhoneModalShow(true)}
+                        >
+                            <Phone /> &nbsp; Telefones
+                        </Button>
+                        <PhoneModal
+                            show={phoneModalShow}
+                            onHide={() => setPhoneModalShow(false)}
+                        />
                     </div>
-                    <div className="mt-2">
-                        <Envelope /> &nbsp; E-mails
+                    <div>
+                        <Button
+                            style={{ color: "var(--primary-color)" }}
+                            variant=""
+                            onClick={() => setMailModalShow(true)}
+                        >
+                            <Envelope /> &nbsp; E-mails
+                        </Button>
+                        <MailModal
+                            show={mailModalShow}
+                            onHide={() => setMailModalShow(false)}
+                        />
                     </div>
                     <div className="mt-2">
                         <Facebook /> &nbsp; Facebook

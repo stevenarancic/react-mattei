@@ -11,6 +11,6 @@
     border: 1px solid var(--primary-color);
     border-radius: 6px;
     padding: 0.75rem;
-    min-width: 9rem;
+    min-width: 10rem;
     transition: 150ms ease-in-out;
 }
