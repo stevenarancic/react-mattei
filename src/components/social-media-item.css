@@ -6,4 +6,6 @@
 .social-media-item:hover {
     transform: scale(1.05);
     color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
 }
