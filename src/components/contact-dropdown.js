@@ -36,7 +36,10 @@ export default function ContactDropdown() {
                 <div className="d-flex flex-column">
                     <div>
                         <Button
-                            style={{ color: "var(--primary-color)" }}
+                            style={{
+                                color: "var(--primary-color)",
+                                padding: 0,
+                            }}
                             variant=""
                             onClick={() => setPhoneModalShow(true)}
                         >
@@ -49,7 +52,11 @@ export default function ContactDropdown() {
                     </div>
                     <div>
                         <Button
-                            style={{ color: "var(--primary-color)" }}
+                            style={{
+                                color: "var(--primary-color)",
+                                padding: 0,
+                                marginTop: 8,
+                            }}
                             variant=""
                             onClick={() => setMailModalShow(true)}
                         >

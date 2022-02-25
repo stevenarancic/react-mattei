@@ -18,6 +18,7 @@ export default function SocialMediaBlock() {
                     icon={<Instagram />}
                     title="Instagram"
                     link="https://www.instagram.com/matteimateriaiseletricos/"
+                    color="#BD2562"
                 />
                 <div className="ms-3" />
                 <SocialMediaItem

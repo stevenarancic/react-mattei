@@ -2,8 +2,6 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import ReviewItem from "./review-item";
 import PrimaryButton from "./primary-button";
-import OutlinedButton from "./outlined-button";
-import { StarFill } from "react-bootstrap-icons";
 
 export default function ReviewsBlock() {
     return (
