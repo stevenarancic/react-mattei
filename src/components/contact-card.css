@@ -1,0 +1,25 @@
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10rem;
+}
+
+.contact-card:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.contact-card:hover h5,
+.contact-card:hover div {
+    color: var(--primary-color) !important;
+}
+
+.contact-card:hover h5 {
+    text-decoration: underline;
+}
+
+.contact-card > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

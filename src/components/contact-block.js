@@ -1,6 +1,13 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { Envelope, GeoAlt, Phone } from "react-bootstrap-icons";
+import {
+    Envelope,
+    EnvelopeFill,
+    GeoAlt,
+    GeoAltFill,
+    Phone,
+    PhoneFill,
+} from "react-bootstrap-icons";
 import ContactCard from "./contact-card";
 import OutlinedButton from "./outlined-button";
 
@@ -12,12 +19,17 @@ export default function ContactBlock() {
                 <Col>
                     <ContactCard
                         icon={<Phone />}
+                        iconFill={<PhoneFill />}
                         title="Telefones"
                         content={
                             <ul style={{ listStyle: "none" }}>
                                 <li>(51) 3033-5050</li>
                                 <li>(51) 3473-3115</li>
-                                <li>(51) 9 9964-0860</li>
+                                <li>
+                                    <a href="https://api.whatsapp.com/send?phone=555199964-0860">
+                                        (51) 9 9964-0860
+                                    </a>
+                                </li>
                             </ul>
                         }
                     />
@@ -25,11 +37,20 @@ export default function ContactBlock() {
                 <Col>
                     <ContactCard
                         icon={<Envelope />}
+                        iconFill={<EnvelopeFill />}
                         title="E-Mail"
                         content={
                             <ul style={{ listStyle: "none" }}>
-                                <li>mattei@mattei.com.br</li>
-                                <li>financeiro@mattei.com.br.br</li>
+                                <li>
+                                    <a href="mailto: mattei@mattei.com.br">
+                                        mattei@mattei.com.br
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto: financeiro@mattei.com.br">
+                                        financeiro@mattei.com.br
+                                    </a>
+                                </li>
                             </ul>
                         }
                     />
@@ -37,6 +58,7 @@ export default function ContactBlock() {
                 <Col>
                     <ContactCard
                         icon={<GeoAlt />}
+                        iconFill={<GeoAltFill />}
                         title="Endereço"
                         content={
                             <ul style={{ listStyle: "none" }}>

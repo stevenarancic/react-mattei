@@ -1,6 +1,23 @@
+@media (max-width: 960px) {
+    .social-media-item {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 960px) {
+    .social-media-item {
+        height: 10rem;
+        width: 10rem;
+    }
+}
+
 .social-media-item {
     border-radius: 1rem;
     transition: 150ms ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-media-item:hover {

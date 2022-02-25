@@ -1,12 +1,13 @@
 import React from "react";
-import { Facebook } from "react-bootstrap-icons";
 import "./social-media-item.css";
 
-export default function SocialMediaItem() {
+export default function SocialMediaItem(props) {
     return (
-        <div className="social-media-item card p-4 d-flex flex-column align-items-center">
-            <Facebook style={{ marginBottom: 8, fontSize: "1.5rem" }} />
-            Facebook
+        <div className="social-media-item card p-4">
+            <div style={{ marginBottom: 4, fontSize: "1.5rem" }}>
+                {props.icon}
+            </div>
+            {props.title}
         </div>
     );
 }

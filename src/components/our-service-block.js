@@ -16,7 +16,7 @@ export default function OurService() {
                             />
                         }
                         title="Cliente Empresarial"
-                        content="Diante das dificuldades diárias, as empresas buscam parceiros que estejam dispostos a abraçar os desafios do dia a dia para que a rotina não seja afetada, principalmente quando ocorrem imprevistos. Nossos clientes empresariais contam com a prioridade no atendimento e na entrega dos produtos, pois o atraso do pedido pode ocasionar grandes problemas para a empresa e até mesmo, a perda de um dia de trabalho."
+                        content="Diante das dificuldades diárias, as empresas buscam parceiros dispostos a abraçar os desafios do dia a dia para não afetar a rotina. Nossos clientes contam com a prioridade no atendimento e entrega de produtos, pois o atraso do pedido pode ocasionar grandes problemas para a empresa e até mesmo, a perda de um dia de trabalho."
                     />
                 </Col>
                 <Col sm={12} md={6} lg={6}>
@@ -28,7 +28,7 @@ export default function OurService() {
                             />
                         }
                         title="Linha Industrial"
-                        content="Comercializamos uma grande variedade de marcas em materiais elétricos industriais, dentre elas, estão Siemens, Schneider Electric, Weg, Cemar, Margirius, Soprano, entre outras. Trabalhamos também, com produtos específicos sob encomenda. Consulte nosso chat online para maiores informações."
+                        content="Comercializamos uma grande variedade de marcas em materiais elétricos industriais, dentre elas, estão Siemens, Schneider Electric, Weg, Cemar, Margirius, Soprano, entre outras. Trabalhamos também, com produtos específicos sob encomenda. Contate-nos para mais informações"
                     />
                 </Col>
             </Row>
