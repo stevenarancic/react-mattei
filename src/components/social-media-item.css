@@ -1,0 +1,9 @@
+.social-media-item {
+    border-radius: 1rem;
+    transition: 150ms ease-in-out;
+}
+
+.social-media-item:hover {
+    transform: scale(1.05);
+    color: var(--primary-color);
+}

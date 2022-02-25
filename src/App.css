@@ -1,6 +1,7 @@
 * {
     font-family: "Poppins";
     --primary-color: #ff4500;
+    --primary-color-dark: #f1430d;
 }
 
 * > .container {

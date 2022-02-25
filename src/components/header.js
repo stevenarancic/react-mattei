@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { Whatsapp } from "react-bootstrap-icons";
 import ContactDropdown from "./contact-dropdown";
 import OutlinedButton from "./outlined-button";
+import PrimaryButton from "./primary-button";
 
 export default function Header() {
     return (
@@ -34,7 +35,7 @@ export default function Header() {
                             Do início ao fim.
                         </h1>
                         <div className="d-flex flex-row align-items-center">
-                            <OutlinedButton
+                            <PrimaryButton
                                 leadingIcon={<Whatsapp />}
                                 title="Faça um orçamento"
                             />
