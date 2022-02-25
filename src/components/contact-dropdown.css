@@ -1,0 +1,16 @@
+.dropdown-block {
+    position: relative;
+}
+
+.menu-dropdown {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 0.25rem);
+    background-color: white;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    padding: 0.75rem;
+    min-width: 8rem;
+    transition: 150ms ease-in-out;
+}

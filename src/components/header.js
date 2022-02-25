@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Whatsapp } from "react-bootstrap-icons";
+import ContactDropdown from "./contact-dropdown";
 import OutlinedButton from "./outlined-button";
 
 export default function Header() {
@@ -32,10 +33,14 @@ export default function Header() {
                             <br />
                             Do início ao fim.
                         </h1>
-                        <OutlinedButton
-                            leadingIcon={<Whatsapp />}
-                            title="Faça um orçamento"
-                        />
+                        <div className="d-flex flex-row align-items-center">
+                            <OutlinedButton
+                                leadingIcon={<Whatsapp />}
+                                title="Faça um orçamento"
+                            />
+                            <div className="ms-3" />
+                            <ContactDropdown />
+                        </div>
                     </Col>
                 </Row>
             </Container>
