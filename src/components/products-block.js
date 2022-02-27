@@ -13,7 +13,7 @@ export default function ProductsBlock() {
                     // className="p-2 mb-3 border d-flex flex-row"
                     // style={{ borderRadius: "1.2rem", width: "100%" }}
                     className="parent border d-flex flex-row align-items-center"
-                    style={{ borderRadius: "1rem" }}
+                    style={{ borderRadius: "1rem", width: "100%" }}
                 >
                     <div className="child">
                         <ProductItem

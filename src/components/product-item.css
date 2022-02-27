@@ -9,6 +9,12 @@
     transition: 150ms ease-in-out;
 }
 
+.product-item > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .product-item:hover {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);

@@ -124,10 +124,10 @@ export default function ProductList() {
                     </div>
                     <div class="child">
                         <ProductItem
-                            title="Eletroduto Galvanizado"
+                            title="Eletroduto de PVC"
                             image={
                                 <img
-                                    src={require("../assets/img/products/eletroduto-galvanizado.png")}
+                                    src={require("../assets/img/products/eletroduto-pvc.png")}
                                     alt=""
                                     style={{
                                         borderRadius: 12,
@@ -182,8 +182,36 @@ export default function ProductList() {
                             }
                         />
                     </div>
-                    <div className="child"></div>
-                    <div className="child"></div>
+                    <div className="child">
+                        <ProductItem
+                            title="Tomada Tramontina"
+                            image={
+                                <img
+                                    src={require("../assets/img/products/chuveiro-lorenzetti-3.png")}
+                                    alt=""
+                                    style={{
+                                        borderRadius: 12,
+                                        boxFit: "cover",
+                                    }}
+                                />
+                            }
+                        />
+                    </div>
+                    <div className="child">
+                        <ProductItem
+                            title="Eletroduto Galvanizado"
+                            image={
+                                <img
+                                    src={require("../assets/img/products/eletroduto-galvanizado.png")}
+                                    alt=""
+                                    style={{
+                                        borderRadius: 12,
+                                        boxFit: "cover",
+                                    }}
+                                />
+                            }
+                        />
+                    </div>
                     <div className="child"></div>
                     <div className="child"></div>
                 </div>
