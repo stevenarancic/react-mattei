@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import ProductItem from "./product-item";
 import PrimaryButton from "./primary-button";
+import { Link } from "react-router-dom";
 
 export default function ProductsBlock() {
     return (
@@ -82,7 +83,10 @@ export default function ProductsBlock() {
                         }
                     />
                 </div>
-                <PrimaryButton title="Ver Mais" />
+
+                <Link to="/product-list" style={{ textDecoration: "none" }}>
+                    <PrimaryButton title="Ver Mais" />
+                </Link>
             </div>
         </Container>
     );

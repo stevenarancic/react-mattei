@@ -1,21 +1,25 @@
-import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Home from "./components/home";
+import ProductList from "./components/product-list";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./components/header";
-import OurService from "./components/our-service-block";
-import ReviewsBlock from "./components/reviews-block";
-import ImageHistoryRow from "./components/image-history-row";
-import Footer from "./components/footer";
-import ProductsBlock from "./components/products-block";
+import "./App.css";
 
 export default function App() {
     return (
-        <div className="bg-light">
-            <Header />
-            <OurService />
-            <ReviewsBlock />
-            <ImageHistoryRow />
-            <ProductsBlock />
-            <Footer />
-        </div>
+        <Router>
+            <div>
+                <Link to="/">Home</Link>
+
+                <Switch>
+                    <Route path="/product-list">
+                        <ProductList />
+                    </Route>
+                    <Route path="/">
+                        <Home />
+                    </Route>
+                </Switch>
+            </div>
+        </Router>
     );
 }
