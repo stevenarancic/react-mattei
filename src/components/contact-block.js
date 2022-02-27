@@ -16,7 +16,7 @@ export default function ContactBlock() {
         <div>
             <h5>Contato</h5>
             <Row>
-                <Col>
+                <Col sm={12} md={4} lg={4}>
                     <ContactCard
                         icon={<Phone />}
                         iconFill={<PhoneFill />}
@@ -34,7 +34,7 @@ export default function ContactBlock() {
                         }
                     />
                 </Col>
-                <Col>
+                <Col sm={12} md={4} lg={4}>
                     <ContactCard
                         icon={<Envelope />}
                         iconFill={<EnvelopeFill />}
@@ -55,7 +55,7 @@ export default function ContactBlock() {
                         }
                     />
                 </Col>
-                <Col>
+                <Col sm={12} md={4} lg={4}>
                     <ContactCard
                         icon={<GeoAlt />}
                         iconFill={<GeoAltFill />}
