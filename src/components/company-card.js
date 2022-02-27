@@ -1,13 +1,11 @@
 import React from "react";
+import "./company-card.css";
 
 export default function CompanyCard(props) {
     return (
-        <div
-            className="card p-3 d-flex flex-column"
-            style={{ height: "46rem" }}
-        >
+        <div className="card company-card">
             {props.image}
-            <h4 className="mt-2">{props.title}</h4>
+            <h4>{props.title}</h4>
             <p>{props.content}</p>
         </div>
     );

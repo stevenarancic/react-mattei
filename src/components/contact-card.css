@@ -1,3 +1,9 @@
+@media (max-width: 960px) {
+    .contact-card {
+        margin-block: 0.4rem;
+    }
+}
+
 .contact-card {
     display: flex;
     flex-direction: column;

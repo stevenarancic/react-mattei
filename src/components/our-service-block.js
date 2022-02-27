@@ -11,8 +11,7 @@ export default function OurService() {
                     <CompanyCard
                         image={
                             <img
-                                src={require("../assets/img/industry/image-5.png")}
-                                style={{ width: "100%" }}
+                                src={require("../assets/img/industry/contract.jpg")}
                             />
                         }
                         title="Cliente Empresarial"
@@ -24,7 +23,6 @@ export default function OurService() {
                         image={
                             <img
                                 src={require("../assets/img/industry/image-1.jpg")}
-                                style={{ width: "100%" }}
                             />
                         }
                         title="Linha Industrial"
