@@ -1,9 +1,11 @@
 .product-item {
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     height: 11rem;
     width: 20rem;
-    border-radius: 1.2rem;
+    border-radius: 1.2rem !important;
     margin-inline: 0.5rem;
     transition: 150ms ease-in-out;
 }

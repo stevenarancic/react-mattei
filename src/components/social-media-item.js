@@ -13,7 +13,7 @@ export default function SocialMediaItem(props) {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
             >
-                <div style={{ marginBottom: 4, fontSize: "1.5rem" }}>
+                <div style={{ marginBottom: 4, fontSize: "1.8rem" }}>
                     {props.icon}
                 </div>
                 {props.title}

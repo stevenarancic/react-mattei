@@ -13,7 +13,7 @@
 }
 
 .social-media-item {
-    border-radius: 1rem;
+    border-radius: 1.25rem !important;
     transition: 150ms ease-in-out;
     display: flex;
     align-items: center;
@@ -27,5 +27,5 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
