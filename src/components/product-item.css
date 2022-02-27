@@ -1,0 +1,15 @@
+.product-item {
+    display: grid;
+    place-items: center;
+    height: 11rem;
+    width: 20rem;
+    border-radius: 1.2rem;
+    margin-inline: 0.5rem;
+    transition: 150ms ease-in-out;
+}
+
+.product-item:hover {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}

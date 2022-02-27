@@ -24,7 +24,7 @@ export default function SocialMediaBlock() {
                 <SocialMediaItem
                     icon={<Whatsapp />}
                     title="Whatsapp"
-                    color="#25C862"
+                    color="#1ea852"
                 />
             </div>
         </div>
