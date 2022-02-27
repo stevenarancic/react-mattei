@@ -29,3 +29,24 @@ a {
 a:hover {
     color: var(--primary-color) !important;
 }
+
+@media (max-width: 960px) {
+    .child {
+        flex: 1 0 40%;
+    }
+}
+
+@media (min-width: 960px) {
+    .child {
+        flex: 1 0 18%;
+    }
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child {
+    margin: 8px;
+}

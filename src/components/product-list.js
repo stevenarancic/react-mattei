@@ -4,11 +4,10 @@ import { CaretLeftFill } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
 import Footer from "./footer";
 import ProductItem from "./product-item";
-import "./products-list.css";
 
 export default function ProductList() {
     return (
-        <>
+        <div className="bg-light">
             <Container>
                 <div className="pb-5 pt-5 text-center d-flex flex-column align-items-start">
                     <h1>Produtos mais vendidos</h1>
@@ -19,7 +18,6 @@ export default function ProductList() {
                 </div>
                 <div class="parent">
                     <div class="child">
-                        {" "}
                         <ProductItem
                             title="Torneira Lorenzetti"
                             image={
@@ -35,7 +33,6 @@ export default function ProductList() {
                         />
                     </div>
                     <div class="child">
-                        {" "}
                         <ProductItem
                             title="Torneira Lorenzetti"
                             image={
@@ -51,7 +48,6 @@ export default function ProductList() {
                         />
                     </div>
                     <div class="child">
-                        {" "}
                         <ProductItem
                             title="Torneira Hydra"
                             image={
@@ -67,7 +63,6 @@ export default function ProductList() {
                         />
                     </div>
                     <div class="child">
-                        {" "}
                         <ProductItem
                             title="Chuveiro Lorenzetti"
                             image={
@@ -98,7 +93,6 @@ export default function ProductList() {
                         />
                     </div>
                     <div class="child">
-                        {" "}
                         <ProductItem
                             title="Chuveiro Hydra"
                             image={
@@ -114,7 +108,6 @@ export default function ProductList() {
                         />
                     </div>
                     <div class="child">
-                        {" "}
                         <ProductItem
                             title="Ducha Lorenzetti"
                             image={
@@ -130,7 +123,6 @@ export default function ProductList() {
                         />
                     </div>
                     <div class="child">
-                        {" "}
                         <ProductItem
                             title="Eletroduto Galvanizado"
                             image={
@@ -146,7 +138,6 @@ export default function ProductList() {
                         />
                     </div>
                     <div className="child">
-                        {" "}
                         <ProductItem
                             title="Fios e Cabos"
                             image={
@@ -192,9 +183,12 @@ export default function ProductList() {
                         />
                     </div>
                     <div className="child"></div>
+                    <div className="child"></div>
+                    <div className="child"></div>
+                    <div className="child"></div>
                 </div>
             </Container>
             <Footer />
-        </>
+        </div>
     );
 }

@@ -6,8 +6,6 @@
     height: 100%;
     width: 100%;
     border-radius: 1rem !important;
-    margin-inline: 0.5rem;
-    margin-block: 0.8rem;
     transition: 150ms ease-in-out;
 }
 
