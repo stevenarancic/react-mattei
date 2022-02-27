@@ -109,68 +109,64 @@ export default function ProductList() {
                         </div>
                     </Col>
                     <Col xs={6} sm={6} md={3} lg={3}>
-                        <Row>
-                            <Col xs={6} sm={6} md={6} lg={6}>
-                                <div className="d-flex flex-column">
-                                    <ProductItem
-                                        title="Canaleta de PVC"
-                                        image={
-                                            <img
-                                                src={require("../assets/img/products/canaleta-pvc.png")}
-                                                alt=""
-                                                style={{
-                                                    borderRadius: 12,
-                                                    boxFit: "cover",
-                                                }}
-                                            />
-                                        }
+                        <div className="d-flex flex-column">
+                            <ProductItem
+                                title="Canaleta de PVC"
+                                image={
+                                    <img
+                                        src={require("../assets/img/products/canaleta-pvc.png")}
+                                        alt=""
+                                        style={{
+                                            borderRadius: 12,
+                                            boxFit: "cover",
+                                        }}
                                     />
-                                    <ProductItem
-                                        title="Eletroduto Galvanizado"
-                                        image={
-                                            <img
-                                                src={require("../assets/img/products/eletroduto-galvanizado.png")}
-                                                alt=""
-                                                style={{
-                                                    borderRadius: 12,
-                                                    boxFit: "cover",
-                                                }}
-                                            />
-                                        }
+                                }
+                            />
+                            <ProductItem
+                                title="Eletroduto Galvanizado"
+                                image={
+                                    <img
+                                        src={require("../assets/img/products/eletroduto-galvanizado.png")}
+                                        alt=""
+                                        style={{
+                                            borderRadius: 12,
+                                            boxFit: "cover",
+                                        }}
                                     />
-                                </div>
-                            </Col>
-                            <Col xs={6} sm={6} md={6} lg={6}>
-                                <div className="d-flex flex-column">
-                                    <ProductItem
-                                        title="Tomada Tramontina"
-                                        image={
-                                            <img
-                                                src={require("../assets/img/products/tomada-tramontina.png")}
-                                                alt=""
-                                                style={{
-                                                    borderRadius: 12,
-                                                    boxFit: "cover",
-                                                }}
-                                            />
-                                        }
+                                }
+                            />
+                        </div>
+                    </Col>
+                    <Col xs={6} sm={6} md={3} lg={3}>
+                        <div className="d-flex flex-column">
+                            <ProductItem
+                                title="Tomada Tramontina"
+                                image={
+                                    <img
+                                        src={require("../assets/img/products/tomada-tramontina.png")}
+                                        alt=""
+                                        style={{
+                                            borderRadius: 12,
+                                            boxFit: "cover",
+                                        }}
                                     />
-                                    <ProductItem
-                                        title="Fios e Cabos"
-                                        image={
-                                            <img
-                                                src={require("../assets/img/products/cabo-fio.png")}
-                                                alt=""
-                                                style={{
-                                                    borderRadius: 12,
-                                                    boxFit: "cover",
-                                                }}
-                                            />
-                                        }
+                                }
+                            />
+                            <ProductItem
+                                title="Fios e Cabos"
+                                image={
+                                    <img
+                                        src={require("../assets/img/products/cabo-fio.png")}
+                                        alt=""
+                                        style={{
+                                            borderRadius: 12,
+                                            boxFit: "cover",
+                                        }}
                                     />
-                                </div>
-                            </Col>
-                        </Row>
+                                }
+                            />
+                        </div>
                     </Col>
                 </Row>
             </Container>
