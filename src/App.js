@@ -9,8 +9,6 @@ export default function App() {
     return (
         <Router>
             <div>
-                <Link to="/">Home</Link>
-
                 <Switch>
                     <Route path="/product-list">
                         <ProductList />
