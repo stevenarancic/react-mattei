@@ -2,6 +2,10 @@
     .child {
         flex: 1 0 40%;
     }
+
+    .second-column {
+        margin-top: 0.8rem;
+    }
 }
 
 @media (min-width: 960px) {

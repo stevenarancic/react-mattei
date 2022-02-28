@@ -1,12 +1,13 @@
 import React from "react";
 import { Facebook, Instagram, Whatsapp } from "react-bootstrap-icons";
 import SocialMediaItem from "./social-media-item";
+import "../styles/social-media-block.css";
 
 export default function SocialMediaBlock() {
     return (
         <div className="mt-1">
             {/* <h5>Redes Sociais</h5> */}
-            <div className="d-flex flex-row">
+            <div className="social-media-block">
                 <SocialMediaItem
                     icon={<Facebook />}
                     title="Facebook"

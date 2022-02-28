@@ -18,7 +18,7 @@ export default function OurService() {
                         content="Diante das dificuldades diárias, as empresas buscam parceiros dispostos a abraçar os desafios do dia a dia para não afetar a rotina. Nossos clientes contam com a prioridade no atendimento e entrega de produtos, pois o atraso do pedido pode ocasionar grandes problemas para a empresa e até mesmo, a perda de um dia de trabalho."
                     />
                 </Col>
-                <Col sm={12} md={6} lg={6}>
+                <Col sm={12} md={6} lg={6} className="second-column">
                     <CompanyCard
                         image={
                             <img

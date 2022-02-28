@@ -1,0 +1,16 @@
+@media (max-width: 450px) {
+    .social-media-block {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 450px) {
+    .social-media-block {
+        justify-content: start;
+    }
+}
+
+.social-media-block {
+    display: flex;
+    flex-direction: row;
+}
