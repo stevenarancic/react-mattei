@@ -4,7 +4,7 @@ import { Whatsapp } from "react-bootstrap-icons";
 import ContactDropdown from "../components/dropdown-menu/contact-dropdown";
 import OutlinedButton from "./outlined-button";
 import PrimaryButton from "./primary-button";
-import "./header.css";
+import "../styles/header.css";
 
 export default function Header() {
     return (

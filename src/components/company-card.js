@@ -1,5 +1,5 @@
 import React from "react";
-import "./company-card.css";
+import "../styles/company-card.css";
 
 export default function CompanyCard(props) {
     return (

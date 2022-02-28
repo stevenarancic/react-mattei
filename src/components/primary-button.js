@@ -1,5 +1,5 @@
 import React from "react";
-import "./primary-button.css";
+import "../styles/primary-button.css";
 
 export default function PrimaryButton(props) {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { StarFill } from "react-bootstrap-icons";
-import "./review-item.css";
+import "../styles/review-item.css";
 
 export default function ReviewItem(props) {
     return (

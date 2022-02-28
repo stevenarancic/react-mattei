@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./social-media-item.css";
+import "../styles/social-media-item.css";
 
 export default function SocialMediaItem(props) {
     const [isHovered, setIsHovered] = useState(false);

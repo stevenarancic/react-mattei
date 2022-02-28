@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import "./contact-card.css";
+import "../styles/contact-card.css";
 
 export default function ContactCard(props) {
     const [isHovered, setIsHovered] = useState(false);

@@ -1,5 +1,5 @@
 import React from "react";
-import "./outlined-button.css";
+import "../styles/outlined-button.css";
 
 export default function OutlinedButton(props) {
     return (
