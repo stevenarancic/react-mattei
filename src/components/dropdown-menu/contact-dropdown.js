@@ -31,6 +31,7 @@ export default function ContactDropdown() {
                     transform: isClicked
                         ? "translateY(5px)"
                         : "translateY(-10px)",
+                    pointerEvents: isClicked ? "auto" : "none",
                 }}
             >
                 <div className="d-flex flex-column">
