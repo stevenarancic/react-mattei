@@ -68,7 +68,7 @@ export default function ContactDropdown() {
                             onHide={() => setMailModalShow(false)}
                         />
                     </div>
-                    <div>
+                    {/* <div>
                         <Button
                             style={{
                                 color: "var(--primary-color)",
@@ -99,7 +99,7 @@ export default function ContactDropdown() {
                         >
                             <Instagram /> &nbsp; Instagram
                         </Button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

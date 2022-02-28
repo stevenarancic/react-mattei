@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PaymentsMethodBlock() {
     return (
-        <div className="mt-4">
+        <div className="mt-4 mb-4">
             <h5>Métodos de Pagamento</h5>
             <div class="d-flex flex-row">
                 <div class="me-1">
