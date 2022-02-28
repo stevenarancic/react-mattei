@@ -55,16 +55,6 @@ export default function ProductsBlock() {
                             }
                         />
                     </div>
-                    <div className="child">
-                        <ProductItem
-                            title="Fios e Cabos"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/cabo-fio.png")}
-                                />
-                            }
-                        />
-                    </div>
                 </div>
 
                 <Link

@@ -18,6 +18,5 @@
 
 .products-block img {
     border-radius: 1rem;
-    height: 7rem;
     object-fit: cover;
 }
