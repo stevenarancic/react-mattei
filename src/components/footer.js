@@ -10,6 +10,13 @@ export default function Footer() {
             <ContactBlock />
             <PaymentsMethodBlock />
             <SocialMediaBlock />
+            <div className="p-2"></div>
+            <small className="text-secondary">
+                &copy;Mattei {new Date().getFullYear()}. Desenvolvido por &nbsp;
+                <a href="https://stevenarancic.github.io/site">
+                    Steve Narancic
+                </a>
+            </small>
         </Container>
     );
 }
