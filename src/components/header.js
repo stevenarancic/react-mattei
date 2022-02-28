@@ -13,42 +13,8 @@ export default function Header() {
             <Container>
                 <Row>
                     <Col sm={12} md={6} lg={6} className="center">
-                        <div
-                            style={{
-                                background: "var(--primary-color)",
-                                position: "relative",
-                                height: "30rem",
-                                width: "30rem",
-                                borderRadius: 22,
-                            }}
-                        >
-                            <img
-                                src={require("../assets/img/mattei_1.png")}
-                                style={{
-                                    position: "absolute",
-                                    top: "0%",
-                                    left: "0%",
-                                    transform: "rotate(6deg)",
-                                    height: "100%",
-                                    width: "100%",
-                                    borderRadius: 22,
-                                    objectFit: "cover",
-                                    // opacity: "90%",
-                                }}
-                            />
-                            {/* <img
-                                src={require("../assets/img/header/image_5.jpg")}
-                                style={{
-                                    position: "absolute",
-                                    top: "0%",
-                                    left: "0%",
-                                    transform: "rotate(6deg)",
-                                    height: "100%",
-                                    width: "100%",
-                                    borderRadius: 22,
-                                    objectFit: "cover",
-                                }}
-                            /> */}
+                        <div className="image-background-card">
+                            <img src={require("../assets/img/mattei_1.png")} />
                         </div>
                     </Col>
                     <Col
@@ -65,7 +31,7 @@ export default function Header() {
                         <SocialMediaBlock />
                         <div className="d-flex flex-row align-items-center mt-3">
                             <PrimaryButton
-                                leadingIcon={<Whatsapp />}
+                                // leadingIcon={<Whatsapp />}
                                 title="Faça um orçamento"
                             />
                             <div className="ms-3" />

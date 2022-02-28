@@ -1,3 +1,11 @@
+@media (max-width: 960px) {
+    .image-background-card {
+        margin-bottom: 2rem;
+        height: 22rem !important;
+        width: 22rem !important;
+    }
+}
+
 .header {
     height: 100vh;
 }
@@ -5,4 +13,23 @@
 .header > h1 {
     font-size: 4rem;
     font-weight: 700;
+}
+
+.image-background-card {
+    height: 30rem;
+    width: 30rem;
+    background-color: var(--primary-color);
+    position: relative;
+    border-radius: 1.25rem;
+}
+
+.image-background-card > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(6deg);
+    height: 100%;
+    width: 100%;
+    border-radius: 1.25rem;
+    object-fit: cover;
 }
