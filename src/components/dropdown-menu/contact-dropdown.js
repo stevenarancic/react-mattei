@@ -67,11 +67,37 @@ export default function ContactDropdown() {
                             onHide={() => setMailModalShow(false)}
                         />
                     </div>
-                    <div className="mt-2">
-                        <Facebook /> &nbsp; Facebook
+                    <div>
+                        <Button
+                            style={{
+                                color: "var(--primary-color)",
+                                padding: 0,
+                                marginTop: 8,
+                            }}
+                            variant=""
+                            onClick={() =>
+                                (window.location.href =
+                                    "https://www.facebook.com/pages/Mattei-Materiais-El%C3%A9tricos/402893023398855")
+                            }
+                        >
+                            <Facebook /> &nbsp; Facebook
+                        </Button>
                     </div>
-                    <div className="mt-2">
-                        <Instagram /> &nbsp; Instagram
+                    <div>
+                        <Button
+                            style={{
+                                color: "var(--primary-color)",
+                                padding: 0,
+                                marginTop: 8,
+                            }}
+                            variant=""
+                            onClick={() =>
+                                (window.location.href =
+                                    "https://www.instagram.com/matteimateriaiseletricos/")
+                            }
+                        >
+                            <Instagram /> &nbsp; Instagram
+                        </Button>
                     </div>
                 </div>
             </div>
