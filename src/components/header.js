@@ -17,12 +17,7 @@ export default function Header() {
                             <img src={require("../assets/img/mattei_1.png")} />
                         </div>
                     </Col>
-                    <Col
-                        sm={12}
-                        md={6}
-                        lg={6}
-                        className="d-flex flex-column justify-content-center align-items-start"
-                    >
+                    <Col sm={12} md={6} lg={6} className="second-column">
                         <h1>
                             Trazendo luz à sua obra.
                             <br />

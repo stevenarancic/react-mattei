@@ -4,6 +4,16 @@
         height: 22rem !important;
         width: 22rem !important;
     }
+
+    .second-column {
+        align-items: center;
+    }
+}
+
+@media (min-width: 960px) {
+    .second-column {
+        align-items: start;
+    }
 }
 
 .header {
@@ -32,4 +42,10 @@
     width: 100%;
     border-radius: 1.25rem;
     object-fit: cover;
+}
+
+.second-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
