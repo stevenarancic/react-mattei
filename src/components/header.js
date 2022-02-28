@@ -9,7 +9,7 @@ import SocialMediaBlock from "./social-media-block";
 
 export default function Header() {
     return (
-        <div className="bg-light header center">
+        <div className="bg-white header center">
             <Container>
                 <Row>
                     <Col sm={12} md={6} lg={6} className="center">
