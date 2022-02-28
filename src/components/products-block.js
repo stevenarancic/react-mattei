@@ -3,16 +3,14 @@ import { Container } from "react-bootstrap";
 import ProductItem from "./product-item";
 import PrimaryButton from "./primary-button";
 import { Link } from "react-router-dom";
+import "../styles/products-block.css";
 
 export default function ProductsBlock() {
     return (
         <Container>
-            <div className="d-flex flex-column align-items-center">
-                <h3 className="mt-4">Nossos principais produtos</h3>
-                <div
-                    className="parent border d-flex flex-row align-items-center"
-                    style={{ borderRadius: "1rem", width: "100%" }}
-                >
+            <div className="products-block">
+                <h3>Nossos principais produtos</h3>
+                <div className="parent border">
                     <div className="child">
                         <ProductItem
                             title="Canaletas PVC"
@@ -20,11 +18,6 @@ export default function ProductsBlock() {
                                 <img
                                     src="https://www.abteletrica.com.br/upload/produtos/ace0613df1cc2fc9f26fcc7f3f1fe317.jpg"
                                     alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        height: "7rem",
-                                        boxFit: "cover",
-                                    }}
                                 />
                             }
                         />
@@ -36,11 +29,6 @@ export default function ProductsBlock() {
                                 <img
                                     src="https://www.abteletrica.com.br/upload/produtos/145c44d8fd15f10f80281ba765b1922c.jpg"
                                     alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        height: "7rem",
-                                        boxFit: "cover",
-                                    }}
                                 />
                             }
                         />
@@ -52,11 +40,6 @@ export default function ProductsBlock() {
                                 <img
                                     src="https://www.abteletrica.com.br/upload/produtos/1c5f8bd7a5404bb0ad0a4a70526bd5d7.jpg"
                                     alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        height: "7rem",
-                                        boxFit: "cover",
-                                    }}
                                 />
                             }
                         />
@@ -68,11 +51,6 @@ export default function ProductsBlock() {
                                 <img
                                     src="https://www.abteletrica.com.br/upload/produtos/90f881bee1f6ed5bb423b3fda3f42c52.jpg"
                                     alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        height: "7rem",
-                                        boxFit: "cover",
-                                    }}
                                 />
                             }
                         />
@@ -83,11 +61,6 @@ export default function ProductsBlock() {
                             image={
                                 <img
                                     src={require("../assets/img/products/cabo-fio.png")}
-                                    style={{
-                                        borderRadius: 12,
-                                        height: "7rem",
-                                        boxFit: "cover",
-                                    }}
                                 />
                             }
                         />

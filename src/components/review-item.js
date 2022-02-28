@@ -4,10 +4,10 @@ import "../styles/review-item.css";
 
 export default function ReviewItem(props) {
     return (
-        <div className="card p-3 d-flex flex-column justify-content-center review-item">
+        <div className="card review-item">
             <h5 className="text-dark">{props.title}</h5>
             <span>{props.content}</span>
-            <div className="d-flex flex-row text-warning fs-4 mt-2">
+            <div className="text-warning">
                 {[...Array(props.numberOfStars)].map((x, i) => (
                     <StarFill />
                 ))}
