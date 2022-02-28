@@ -10,8 +10,6 @@ export default function ProductsBlock() {
             <div className="d-flex flex-column align-items-center">
                 <h3 className="mt-4">Nossos principais produtos</h3>
                 <div
-                    // className="p-2 mb-3 border d-flex flex-row"
-                    // style={{ borderRadius: "1.2rem", width: "100%" }}
                     className="parent border d-flex flex-row align-items-center"
                     style={{ borderRadius: "1rem", width: "100%" }}
                 >

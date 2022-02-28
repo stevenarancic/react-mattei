@@ -1,24 +1,17 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Whatsapp } from "react-bootstrap-icons";
-import ContactDropdown from "./contact-dropdown";
+import ContactDropdown from "../components/dropdown-menu/contact-dropdown";
 import OutlinedButton from "./outlined-button";
 import PrimaryButton from "./primary-button";
+import "./header.css";
 
 export default function Header() {
     return (
-        <div
-            className="bg-white d-flex align-items-center justify-content-center"
-            style={{ height: "100vh" }}
-        >
+        <div className="bg-white header center">
             <Container>
                 <Row>
-                    <Col
-                        sm={12}
-                        md={6}
-                        lg={6}
-                        className="d-flex justify-content-center align-items-center"
-                    >
+                    <Col sm={12} md={6} lg={6} className="center">
                         <img
                             src={require("../assets/img/header/image_5.jpg")}
                         />
@@ -29,7 +22,7 @@ export default function Header() {
                         lg={6}
                         className="d-flex flex-column justify-content-center align-items-start"
                     >
-                        <h1 style={{ fontSize: "4rem", fontWeight: 700 }}>
+                        <h1>
                             Trazendo luz à sua obra.
                             <br />
                             Do início ao fim.

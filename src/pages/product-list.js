@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { CaretLeftFill } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
-import Footer from "./footer";
-import ProductItem from "./product-item";
+import Footer from "../components/footer";
+import ProductItem from "../components/product-item";
 
 export default function ProductList() {
     return (

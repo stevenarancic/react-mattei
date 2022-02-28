@@ -50,3 +50,9 @@ a:hover {
 .child {
     margin: 8px;
 }
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
