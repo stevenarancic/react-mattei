@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import "./company-providers-block.css";
+import "../styles/company-providers-block.css";
 
 export default function CompanyProvidersBlock() {
     return (

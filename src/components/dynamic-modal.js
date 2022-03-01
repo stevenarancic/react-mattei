@@ -4,7 +4,7 @@ function DynamicModal(props) {
     return (
         <Modal
             {...props}
-            size="md"
+            size={props.size != "" ? props.size : "md"}
             aria-labelledby="contained-modal-title-vcenter"
             centered
         >
@@ -13,7 +13,7 @@ function DynamicModal(props) {
                     {props.title}
                 </Modal.Title>
             </Modal.Header>
-            <Modal.Body>{props.image}</Modal.Body>
+            <Modal.Body>{props.body}</Modal.Body>
             <Modal.Footer>
                 <Button onClick={props.onHide}>Fechar</Button>
             </Modal.Footer>

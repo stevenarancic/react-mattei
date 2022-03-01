@@ -17,201 +17,175 @@ export default function ProductList() {
                     </Link>
                 </div>
                 <div class="parent">
-                    <div class="child">
-                        <ProductItem
-                            title="Torneira Lorenzetti"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/torneira-lorenzetti.png")}
-                                    alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        boxFit: "cover",
-                                    }}
-                                />
-                            }
-                        />
-                    </div>
-                    <div class="child">
-                        <ProductItem
-                            title="Torneira Lorenzetti"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/torneira-lorenzetti-2.png")}
-                                    alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        boxFit: "cover",
-                                    }}
-                                />
-                            }
-                        />
-                    </div>
-                    <div class="child">
-                        <ProductItem
-                            title="Torneira Hydra"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/torneira-hydra.png")}
-                                    alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        boxFit: "cover",
-                                    }}
-                                />
-                            }
-                        />
-                    </div>
-                    <div class="child">
-                        <ProductItem
-                            title="Chuveiro Lorenzetti"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/chuveiro-lorenzetti.png")}
-                                    alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        boxFit: "cover",
-                                    }}
-                                />
-                            }
-                        />
-                    </div>
-                    <div class="child">
-                        <ProductItem
-                            title="Chuveiro Hydra"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/chuveiro-hydra-nd.png")}
-                                    alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        boxFit: "cover",
-                                    }}
-                                />
-                            }
-                        />
-                    </div>
-                    <div class="child">
-                        <ProductItem
-                            title="Chuveiro Hydra"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/chuveiro-hydra-nd-2.png")}
-                                    alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        boxFit: "cover",
-                                    }}
-                                />
-                            }
-                        />
-                    </div>
-                    <div class="child">
-                        <ProductItem
-                            title="Ducha Lorenzetti"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/ducha-lorenzetti.png")}
-                                    alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        boxFit: "cover",
-                                    }}
-                                />
-                            }
-                        />
-                    </div>
-                    <div class="child">
-                        <ProductItem
-                            title="Eletroduto de PVC"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/eletroduto-pvc.png")}
-                                    alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        boxFit: "cover",
-                                    }}
-                                />
-                            }
-                        />
-                    </div>
-                    <div className="child">
-                        <ProductItem
-                            title="Fios e Cabos"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/cabo-fio.png")}
-                                    alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        boxFit: "cover",
-                                    }}
-                                />
-                            }
-                        />
-                    </div>
-                    <div className="child">
-                        <ProductItem
-                            title="Canaleta de PVC"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/canaleta-pvc.png")}
-                                    alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        boxFit: "cover",
-                                    }}
-                                />
-                            }
-                        />
-                    </div>
-                    <div className="child">
-                        <ProductItem
-                            title="Tomada Tramontina"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/tomada-tramontina.png")}
-                                    alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        boxFit: "cover",
-                                    }}
-                                />
-                            }
-                        />
-                    </div>
-                    <div className="child">
-                        <ProductItem
-                            title="Tomada Tramontina"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/chuveiro-lorenzetti-3.png")}
-                                    alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        boxFit: "cover",
-                                    }}
-                                />
-                            }
-                        />
-                    </div>
-                    <div className="child">
-                        <ProductItem
-                            title="Eletroduto Galvanizado"
-                            image={
-                                <img
-                                    src={require("../assets/img/products/eletroduto-galvanizado.png")}
-                                    alt=""
-                                    style={{
-                                        borderRadius: 12,
-                                        boxFit: "cover",
-                                    }}
-                                />
-                            }
-                        />
-                    </div>
+                    <ProductItem
+                        title="Torneira Lorenzetti"
+                        image={
+                            <img
+                                src={require("../assets/img/products/torneira-lorenzetti.png")}
+                                alt=""
+                                style={{
+                                    borderRadius: 12,
+                                    boxFit: "cover",
+                                }}
+                            />
+                        }
+                    />
+                    <ProductItem
+                        title="Torneira Lorenzetti"
+                        image={
+                            <img
+                                src={require("../assets/img/products/torneira-lorenzetti-2.png")}
+                                alt=""
+                                style={{
+                                    borderRadius: 12,
+                                    boxFit: "cover",
+                                }}
+                            />
+                        }
+                    />
+                    <ProductItem
+                        title="Torneira Hydra"
+                        image={
+                            <img
+                                src={require("../assets/img/products/torneira-hydra.png")}
+                                alt=""
+                                style={{
+                                    borderRadius: 12,
+                                    boxFit: "cover",
+                                }}
+                            />
+                        }
+                    />
+                    <ProductItem
+                        title="Chuveiro Lorenzetti"
+                        image={
+                            <img
+                                src={require("../assets/img/products/chuveiro-lorenzetti.png")}
+                                alt=""
+                                style={{
+                                    borderRadius: 12,
+                                    boxFit: "cover",
+                                }}
+                            />
+                        }
+                    />
+                    <ProductItem
+                        title="Chuveiro Hydra"
+                        image={
+                            <img
+                                src={require("../assets/img/products/chuveiro-hydra-nd.png")}
+                                alt=""
+                                style={{
+                                    borderRadius: 12,
+                                    boxFit: "cover",
+                                }}
+                            />
+                        }
+                    />
+                    <ProductItem
+                        title="Chuveiro Hydra"
+                        image={
+                            <img
+                                src={require("../assets/img/products/chuveiro-hydra-nd-2.png")}
+                                alt=""
+                                style={{
+                                    borderRadius: 12,
+                                    boxFit: "cover",
+                                }}
+                            />
+                        }
+                    />
+                    <ProductItem
+                        title="Ducha Lorenzetti"
+                        image={
+                            <img
+                                src={require("../assets/img/products/ducha-lorenzetti.png")}
+                                alt=""
+                                style={{
+                                    borderRadius: 12,
+                                    boxFit: "cover",
+                                }}
+                            />
+                        }
+                    />
+                    <ProductItem
+                        title="Eletroduto de PVC"
+                        image={
+                            <img
+                                src={require("../assets/img/products/eletroduto-pvc.png")}
+                                alt=""
+                                style={{
+                                    borderRadius: 12,
+                                    boxFit: "cover",
+                                }}
+                            />
+                        }
+                    />
+                    <ProductItem
+                        title="Fios e Cabos"
+                        image={
+                            <img
+                                src={require("../assets/img/products/cabo-fio.png")}
+                                alt=""
+                                style={{
+                                    borderRadius: 12,
+                                    boxFit: "cover",
+                                }}
+                            />
+                        }
+                    />
+                    <ProductItem
+                        title="Canaleta de PVC"
+                        image={
+                            <img
+                                src={require("../assets/img/products/canaleta-pvc.png")}
+                                alt=""
+                                style={{
+                                    borderRadius: 12,
+                                    boxFit: "cover",
+                                }}
+                            />
+                        }
+                    />
+                    <ProductItem
+                        title="Tomada Tramontina"
+                        image={
+                            <img
+                                src={require("../assets/img/products/tomada-tramontina.png")}
+                                alt=""
+                                style={{
+                                    borderRadius: 12,
+                                    boxFit: "cover",
+                                }}
+                            />
+                        }
+                    />
+                    <ProductItem
+                        title="Tomada Tramontina"
+                        image={
+                            <img
+                                src={require("../assets/img/products/chuveiro-lorenzetti-3.png")}
+                                alt=""
+                                style={{
+                                    borderRadius: 12,
+                                    boxFit: "cover",
+                                }}
+                            />
+                        }
+                    />
+                    <ProductItem
+                        title="Eletroduto Galvanizado"
+                        image={
+                            <img
+                                src={require("../assets/img/products/eletroduto-galvanizado.png")}
+                                alt=""
+                                style={{
+                                    borderRadius: 12,
+                                    boxFit: "cover",
+                                }}
+                            />
+                        }
+                    />
                     <div className="child"></div>
                     <div className="child"></div>
                 </div>

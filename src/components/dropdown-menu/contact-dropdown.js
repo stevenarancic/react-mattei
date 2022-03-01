@@ -7,7 +7,7 @@ import {
     Phone,
 } from "react-bootstrap-icons";
 import OutlinedButton from "../outlined-button";
-import "./contact-dropdown.css";
+import "../../styles/contact-dropdown.css";
 import PhoneModal from "./phone-modal";
 import MailModal from "./mail-modal";
 import { Button } from "react-bootstrap";
