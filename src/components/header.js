@@ -66,6 +66,10 @@ export default function Header() {
                             <PrimaryButton
                                 // leadingIcon={<Whatsapp />}
                                 title="Faça um orçamento"
+                                onClick={() =>
+                                    (window.location.href =
+                                        "https://api.whatsapp.com/send?phone=5551999640860&text=Ol%C3%A1!%20quero%20fazer%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F")
+                                }
                             />
                             <div className="ms-3" />
                             <ContactDropdown />
