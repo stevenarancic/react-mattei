@@ -6,6 +6,7 @@ import ImageHistoryRow from "../components/image-history-row";
 import Footer from "../components/footer";
 import ProductsBlock from "../components/products-block";
 import CompanyProvidersBlock from "../components/company-providers-block";
+import { DeliveryBlock } from "../components/delivery-block";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <ImageHistoryRow />
             <ProductsBlock />
             <CompanyProvidersBlock />
+            <DeliveryBlock />
             <Footer />
         </div>
     );
