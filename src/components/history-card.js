@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HistoryCard() {
     return (
-        <div className="card p-3">
+        <div className="card p-3" style={{ minHeight: "29.5rem" }}>
             <h3>Nossa História</h3>
             <p>
                 A empresa foi criada em 1976, como prestadora de serviços e

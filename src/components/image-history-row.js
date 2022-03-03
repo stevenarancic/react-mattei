@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { DeliveryBlock } from "./delivery-block";
 import HistoryCard from "./history-card";
 
 export default function ImageHistoryRow() {
@@ -8,6 +9,9 @@ export default function ImageHistoryRow() {
             <Row>
                 <Col>
                     <HistoryCard />
+                </Col>
+                <Col>
+                    <DeliveryBlock />
                 </Col>
             </Row>
         </Container>

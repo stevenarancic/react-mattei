@@ -1,22 +1,40 @@
-import React from "react";
+import { React, useState } from "react";
 import { Container } from "react-bootstrap";
+import DynamicModal from "./dynamic-modal";
 
 export const DeliveryBlock = () => {
+    const [modalShow, setModalShow] = useState(false);
     return (
         <div>
-            <Container>
-                <div className="p-3 mt-4 card rounded">
-                    <h3>Fazemos Entrega</h3>
-                    <img
-                        src={require("../assets/img/delivery-truck/image-1.jpeg")}
-                        alt=""
-                        style={{ borderRadius: 16 }}
-                    />
-                    <video
-                        src={require("../assets/img/delivery-truck/video-1.mp4")}
-                    ></video>
-                </div>
-            </Container>
+            <div className="p-3 card rounded">
+                <h3>Fazemos Entrega</h3>
+                <img
+                    src={require("../assets/img/delivery-truck/image-1.jpeg")}
+                    alt=""
+                    style={{ borderRadius: 16 }}
+                    onClick={() => setModalShow(!modalShow)}
+                />
+                <small className="text-secondary">
+                    Clique na imagem e assista ao vídeo.
+                </small>
+                <DynamicModal
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                    title="Mattei"
+                    size="md"
+                    body={
+                        <div className="d-flex flex-row justify-content-center">
+                            <video width="" height="" controls>
+                                <source
+                                    src={require("../assets/img/delivery-truck/video-1.mp4")}
+                                    type="video/mp4"
+                                />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    }
+                />
+            </div>
         </div>
     );
 };

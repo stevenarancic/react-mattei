@@ -4,9 +4,9 @@ function DynamicModal(props) {
     return (
         <Modal
             {...props}
-            size={props.size != "" ? props.size : "md"}
             aria-labelledby="contained-modal-title-vcenter"
             centered
+            size={props.size}
         >
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">
