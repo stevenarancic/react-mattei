@@ -7,10 +7,10 @@ export default function ImageHistoryRow() {
     return (
         <Container className="mt-4">
             <Row>
-                <Col>
+                <Col sm={12} md={6} lg={6}>
                     <HistoryCard />
                 </Col>
-                <Col>
+                <Col sm={12} md={6} lg={6}>
                     <DeliveryBlock />
                 </Col>
             </Row>

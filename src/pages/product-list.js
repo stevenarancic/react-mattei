@@ -6,6 +6,61 @@ import Footer from "../components/footer";
 import ProductItem from "../components/product-item";
 
 export default function ProductList() {
+    const products = [
+        {
+            title: "Torneira Lorenzetti",
+            image: require("../assets/img/products/torneira-lorenzetti.png"),
+        },
+        {
+            title: "Torneira Lorenzetti",
+            image: require("../assets/img/products/torneira-lorenzetti-2.png"),
+        },
+        {
+            title: "Torneira Hydra",
+            image: require("../assets/img/products/torneira-hydra.png"),
+        },
+        {
+            title: "Chuveiro Lorenzetti",
+            image: require("../assets/img/products/chuveiro-lorenzetti.png"),
+        },
+        {
+            title: "Chuveiro Hydra",
+            image: require("../assets/img/products/chuveiro-hydra-nd.png"),
+        },
+        {
+            title: "Torneira Lorenzetti",
+            image: require("../assets/img/products/chuveiro-hydra-nd-2.png"),
+        },
+        {
+            title: "Ducha Lorenzetti",
+            image: require("../assets/img/products/ducha-lorenzetti.png"),
+        },
+        {
+            title: "Eletroduto de PVC",
+            image: require("../assets/img/products/eletroduto-pvc.png"),
+        },
+        {
+            title: "Fios e Cabos",
+            image: require("../assets/img/products/cabo-fio.png"),
+        },
+        {
+            title: "Canaleta de PVC",
+            image: require("../assets/img/products/canaleta-pvc.png"),
+        },
+        {
+            title: "Tomada Tramontina",
+            image: require("../assets/img/products/tomada-tramontina.png"),
+        },
+        {
+            title: "Chuveiro Lorenzetti",
+            image: require("../assets/img/products/chuveiro-lorenzetti-3.png"),
+        },
+        {
+            title: "Eletroduto Galvanizado",
+            image: require("../assets/img/products/eletroduto-galvanizado.png"),
+        },
+    ];
+
     return (
         <div className="bg-light">
             <Container>
@@ -17,175 +72,21 @@ export default function ProductList() {
                     </Link>
                 </div>
                 <div class="parent">
-                    <ProductItem
-                        title="Torneira Lorenzetti"
-                        image={
-                            <img
-                                src={require("../assets/img/products/torneira-lorenzetti.png")}
-                                alt=""
-                                style={{
-                                    borderRadius: 12,
-                                    boxFit: "cover",
-                                }}
-                            />
-                        }
-                    />
-                    <ProductItem
-                        title="Torneira Lorenzetti"
-                        image={
-                            <img
-                                src={require("../assets/img/products/torneira-lorenzetti-2.png")}
-                                alt=""
-                                style={{
-                                    borderRadius: 12,
-                                    boxFit: "cover",
-                                }}
-                            />
-                        }
-                    />
-                    <ProductItem
-                        title="Torneira Hydra"
-                        image={
-                            <img
-                                src={require("../assets/img/products/torneira-hydra.png")}
-                                alt=""
-                                style={{
-                                    borderRadius: 12,
-                                    boxFit: "cover",
-                                }}
-                            />
-                        }
-                    />
-                    <ProductItem
-                        title="Chuveiro Lorenzetti"
-                        image={
-                            <img
-                                src={require("../assets/img/products/chuveiro-lorenzetti.png")}
-                                alt=""
-                                style={{
-                                    borderRadius: 12,
-                                    boxFit: "cover",
-                                }}
-                            />
-                        }
-                    />
-                    <ProductItem
-                        title="Chuveiro Hydra"
-                        image={
-                            <img
-                                src={require("../assets/img/products/chuveiro-hydra-nd.png")}
-                                alt=""
-                                style={{
-                                    borderRadius: 12,
-                                    boxFit: "cover",
-                                }}
-                            />
-                        }
-                    />
-                    <ProductItem
-                        title="Chuveiro Hydra"
-                        image={
-                            <img
-                                src={require("../assets/img/products/chuveiro-hydra-nd-2.png")}
-                                alt=""
-                                style={{
-                                    borderRadius: 12,
-                                    boxFit: "cover",
-                                }}
-                            />
-                        }
-                    />
-                    <ProductItem
-                        title="Ducha Lorenzetti"
-                        image={
-                            <img
-                                src={require("../assets/img/products/ducha-lorenzetti.png")}
-                                alt=""
-                                style={{
-                                    borderRadius: 12,
-                                    boxFit: "cover",
-                                }}
-                            />
-                        }
-                    />
-                    <ProductItem
-                        title="Eletroduto de PVC"
-                        image={
-                            <img
-                                src={require("../assets/img/products/eletroduto-pvc.png")}
-                                alt=""
-                                style={{
-                                    borderRadius: 12,
-                                    boxFit: "cover",
-                                }}
-                            />
-                        }
-                    />
-                    <ProductItem
-                        title="Fios e Cabos"
-                        image={
-                            <img
-                                src={require("../assets/img/products/cabo-fio.png")}
-                                alt=""
-                                style={{
-                                    borderRadius: 12,
-                                    boxFit: "cover",
-                                }}
-                            />
-                        }
-                    />
-                    <ProductItem
-                        title="Canaleta de PVC"
-                        image={
-                            <img
-                                src={require("../assets/img/products/canaleta-pvc.png")}
-                                alt=""
-                                style={{
-                                    borderRadius: 12,
-                                    boxFit: "cover",
-                                }}
-                            />
-                        }
-                    />
-                    <ProductItem
-                        title="Tomada Tramontina"
-                        image={
-                            <img
-                                src={require("../assets/img/products/tomada-tramontina.png")}
-                                alt=""
-                                style={{
-                                    borderRadius: 12,
-                                    boxFit: "cover",
-                                }}
-                            />
-                        }
-                    />
-                    <ProductItem
-                        title="Tomada Tramontina"
-                        image={
-                            <img
-                                src={require("../assets/img/products/chuveiro-lorenzetti-3.png")}
-                                alt=""
-                                style={{
-                                    borderRadius: 12,
-                                    boxFit: "cover",
-                                }}
-                            />
-                        }
-                    />
-                    <ProductItem
-                        title="Eletroduto Galvanizado"
-                        image={
-                            <img
-                                src={require("../assets/img/products/eletroduto-galvanizado.png")}
-                                alt=""
-                                style={{
-                                    borderRadius: 12,
-                                    boxFit: "cover",
-                                }}
-                            />
-                        }
-                    />
+                    {products.map((product) => (
+                        <ProductItem
+                            title={product.title}
+                            image={
+                                <img
+                                    src={product.image}
+                                    alt=""
+                                    style={{
+                                        borderRadius: 12,
+                                        boxFit: "cover",
+                                    }}
+                                />
+                            }
+                        />
+                    ))}
                     <div className="child"></div>
                     <div className="child"></div>
                 </div>

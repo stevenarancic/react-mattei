@@ -1,8 +1,8 @@
 @media (max-width: 960px) {
     .image-background-card {
         margin-bottom: 2rem;
-        height: 22rem !important;
-        width: 22rem !important;
+        height: 18rem !important;
+        width: 18rem !important;
     }
 
     .second-column {
