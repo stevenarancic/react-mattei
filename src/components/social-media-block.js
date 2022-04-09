@@ -37,7 +37,6 @@ export default function SocialMediaBlock() {
                             link={item.link}
                             color={item.color}
                         />
-                        <div className="me-3" />
                     </>
                 ))}
             </div>
