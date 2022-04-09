@@ -1,6 +1,6 @@
 @media (max-width: 450px) {
     .social-media-block {
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 }
 

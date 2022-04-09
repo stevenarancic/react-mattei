@@ -61,7 +61,7 @@ export default function Header() {
                             <br />
                             Do início ao fim.
                         </h1>
-                        <SocialMediaBlock />
+                        {/* <SocialMediaBlock /> */}
                         <div className="d-flex flex-row align-items-center mt-3">
                             <PrimaryButton
                                 // leadingIcon={<Whatsapp />}
